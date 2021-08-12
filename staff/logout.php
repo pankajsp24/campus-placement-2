@@ -1,0 +1,11 @@
+<?php
+session_start();
+if($_SESSION['dept_name']=='')
+{
+ header("location:staff_login.php");
+}else
+{
+	session_destroy();
+    header("location:http://localhost/campus-placement-2/index.html");
+}
+?>

@@ -1,0 +1,11 @@
+<?php
+session_start();
+if($_SESSION['admin_name']=='')
+{
+ header("location:admin_login.php");
+}else
+{
+	session_destroy();
+    header("location:http://localhost/campus-placement-2/index.html");
+}
+?>

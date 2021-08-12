@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Campus Placement | Home</title>
+	<!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico">
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css"> 
+	<link rel="stylesheet" href="css/bootstrap-theme.css" media="screen"> 
+	<link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
+	
+</head>
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="index.html">
+					<img src="images/Campusplacements_logo1.png" alt="">
+				</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right mainNav">
+					<li><a href="index.html">Home</a></li>
+          			<li class="dropdown">
+            			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<b class="caret"></b></a>
+            				<ul class="dropdown-menu">
+              					<li><a href="admin/admin_login.php">Admin Login</a></li>
+              					<li><a href="staff/staff_login.php">Staff Login</a></li>
+              					<li><a href="students/student_login.php">Student Login</a></li>
+            				</ul>
+          			</li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="notifications.html">Notifications</a></li>
+					<li><a href="videos.html">Videos</a></li>
+					<li><a href="contact.php">Contact</a></li>
+
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+	<!-- /.navbar -->
+
+	<!-- Header -->
+	<header id="head">
+		<div class="container">
+            <div class="heading-text">							
+				<h1 class="animated flipInY delay1">Do What you Love with <b>Passion</b></h1>
+				<h4>Experience is not what happens to a man.
+					It is what a man does with what happens to him</h4>
+			</div>
+			<div class="fluid_container">                       
+                <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
+                    <div data-thumb="images/slides/thumbs/gate.jpg" data-src="images/slides/gate.jpg"></div> 
+                    <div data-thumb="images/slides/thumbs/clg.jpg" data-src="images/slides/clg.jpg"></div>
+                    <div data-thumb="images/slides/thumbs/clg2.jpg" data-src="images/slides/clg2.jpg"></div> 
+                </div><!-- #camera_wrap_3 -->
+            </div><!-- .fluid_container -->
+		</div>
+	</header>
+	<!-- /Header -->
+
+  	<div class="container">
+    	<div class="row" align="center--">
+			<div class="col-md-3">
+				<div class="grey-box-icon">
+					<div class="icon-box-top grey-box-icon-pos">
+						<img src="images/1.png" alt="" />
+					</div><!--icon box top -->
+					<h4>Give Great Placement</h4>
+					<p>Our institute provides placement opportunities as 
+						well as internships to all students through its career services.</p>
+     			</div><!--grey box -->
+            </div><!--/span3-->
+			<div class="col-md-3">
+				<div class="grey-box-icon">
+					<div class="icon-box-top grey-box-icon-pos">
+						<img src="images/2.png" alt="" />
+					</div><!--icon box top -->
+					<h4>Meet our Staff</h4>
+					<p>Use the Where to Turn Guide to find the institute contact that can best answer your questions.</p>
+				</div><!--grey box -->
+			</div><!--/span3-->
+			<div class="col-md-3">
+				<div class="grey-box-icon">
+					<div class="icon-box-top grey-box-icon-pos">
+						<img src="images/3.png" alt="" />
+					</div><!--icon box top -->
+					<h4>Latest Updates</h4>
+					<p>The placement drive is being coordinated from IT Pune campus. IT pune is conducting the placement completely in an online mode and the institute has ensured we take every 
+						effort to make placements season at IT pune a success, said professor shahid Kumar, Head, Center for Career Development at IT pune.</p>
+				</div><!--grey box -->
+			</div><!--/span3-->
+			<div class="col-md-3">
+				<div class="grey-box-icon">
+					<div class="icon-box-top grey-box-icon-pos">
+						<img src="images/4.png" alt="" />
+					</div><!--icon box top -->
+					<h4>Placements</h4>
+					<p>Despite pandemic and a shrinking economy, the number of offers have remained unaffected at the
+						 Indian Institute of Technology (IITs) in the first round of placements.</p>
+				</div><!--grey box -->
+			</div><!--/span3-->
+		</div>
+    </div>
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="js/modernizr-latest.js"></script> 
+	<script type='text/javascript' src='js/jquery.min.js'></script>
+    <script type='text/javascript' src='js/fancybox/jquery.fancybox.pack.js'></script>
+    
+    <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='js/camera.min.js'></script> 
+    <script src="js/bootstrap.min.js"></script> 
+	<script src="js/custom.js"></script>
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_4').camera({
+                transPeriod: 500,
+                time: 3000,
+				height: '600',
+				loader: 'false',
+				pagination: true,
+				thumbnails: false,
+				hover: false,
+                playPause: false,
+                navigation: false,
+				opacityOnGrid: false,
+				imagePath: 'images/'
+			});
+
+		});
+      
+	</script>
+    <br> 
+ <div class="copywrite-area">
+<center><p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> | <i class="fa fa-heart-o" aria-hidden="true"></i> Developed By: Poojashree Yadav & Pankaj Sabale | All rights reserved. </p></center>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?php
+session_start();
+if($_SESSION['PRN']=='')
+{
+ header("location:student_login.php");
+}else
+{
+	session_destroy();
+    header("location:http://localhost/campus-placement-2/index.html");
+}
+?>
